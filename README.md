@@ -1,3 +1,4 @@
+Instructions I was given:
 - Roll the dice to begin the game
 - The dice appears on the first roll
 - When a die is rolled, the score adds up
