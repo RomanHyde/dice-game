@@ -15,28 +15,37 @@
         <h3>Player 1</h3>
         <h3 id="status"> Want to play? </h3>
 
-
-        <div class="dice-container">
-
+        <div class="flexy">
             <div id="rules-box">
                 <p>
                     <b>
                         How to Play
                     </b>
+
                     <br>
+                <p>
                     The aim of the game is to get a score of 20 without rolling a 1.
+                </p>
                     <br>
+                <p>
                     If you roll at 1, you lose and your score will be reset to zero.
                 </p>
+                <button class="restart">Restart</button>
             </div>
-            <div class="score-box">
-                <h3 class="scoreTitle">Score:</h3>
-                <p id="scoreCount">0</p>
+            <div class="dice-container">
+                <div class="score-box">
+                    <h3 class="scoreTitle">Score:</h3>
+                    <p id="scoreCount">0</p>
+                </div>
+
+                <img src="img/dice-default.jpg" alt="Dice image" id="die"></img>
+                <br>
+                <button id="button" type="button">Roll</button>
             </div>
 
-            <img src="img/dice-default.jpg" alt="Dice image" id="die"></img>
-            <br>
-            <button id="button" type="button">Roll</button>
+
+
+
         </div>
         <script src="script.js"></script>
     </div>

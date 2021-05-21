@@ -1,7 +1,5 @@
 body
     background: #20123A
-    display: flex
-    justify-content: center
 
 h2
     font-family: arial
@@ -16,17 +14,25 @@ h2
 .container
     text-align: center
 
+.flexy
+    display: flex
+    justify-content: center
+    flex-direction: row
+
 h3
     font-family: arial
     font-size: 2rem
     color: #F8E71C 
 
+#status
+    color: #F35F1C
+
 #rules-box
-    position: absolute
-    left: 25%
-    height: 200px
+    height: 300px
     width: 200px
-    margin: 10px
+    margin: 20px
+    margin-top: 45px
+
     padding-top: 20px
     padding-left: 10px
     padding-right: 10px
@@ -37,6 +43,12 @@ h3
     border-radius: 5%
     border-style: dashed
 
+p
+    margin: 10px
+    font-size: 1rem
+
+b
+    font-size: 1.5rem
 
 #scoreCount
     font-family: arial
@@ -47,6 +59,23 @@ img
     border-radius: 15%
     border-style: solid
 
-button
+#button
     height 50px
     width 150px
+    padding: 5px 20px
+    background-color: #F35F1C
+    font-size: 1.5rem
+    text-decoration: none
+    border: none
+    border-radius: 5%
+
+.restart
+    height 50px
+    width 150px
+    margin-top: 20px
+    padding: 5px 20px
+    background-color: #F8E71C
+    font-size: 1.5rem
+    text-decoration: none
+    border: none
+    border-radius: 5%

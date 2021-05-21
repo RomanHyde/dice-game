@@ -1,11 +1,5 @@
 body {
   background: #20123A;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 h2 {
@@ -24,18 +18,34 @@ h2 {
   text-align: center;
 }
 
+.flexy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
 h3 {
   font-family: arial;
   font-size: 2rem;
   color: #F8E71C;
 }
 
+#status {
+  color: #F35F1C;
+}
+
 #rules-box {
-  position: absolute;
-  left: 25%;
-  height: 200px;
+  height: 300px;
   width: 200px;
-  margin: 10px;
+  margin: 20px;
+  margin-top: 45px;
   padding-top: 20px;
   padding-left: 10px;
   padding-right: 10px;
@@ -47,6 +57,15 @@ h3 {
   border-style: dashed;
 }
 
+p {
+  margin: 10px;
+  font-size: 1rem;
+}
+
+b {
+  font-size: 1.5rem;
+}
+
 #scoreCount {
   font-family: arial;
   font-size: 2rem;
@@ -56,5 +75,24 @@ h3 {
 img {
   border-radius: 15%;
   border-style: solid;
+}
+
+#button {
+  padding: 5px 20px;
+  background-color: #F35F1C;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border: none;
+  border-radius: 5%;
+}
+
+.restart {
+  margin-top: 20px;
+  padding: 5px 20px;
+  background-color: #F8E71C;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border: none;
+  border-radius: 5%;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,12 +1,13 @@
 // button element is declared here
 const button = document.getElementById("button");
+const restartButton = document.getElementsByClassName("restart");
 let score = 0
 
 // Click the butoon & get a random number each time
 button.addEventListener('click', () => {
     // console.log("hello");
     // Number Randomiser
-    const ranNum = getRandomInt = (min, max) => {
+    getRandomInt = (min, max) => {
         min = Math.ceil(min);
         max = Math.floor(max);
         return Math.floor(Math.random() * (max - min) + min);
@@ -87,6 +88,30 @@ button.addEventListener('click', () => {
 
 });
 
+
+
+// restartButton.addEventListener('click', () => {
+//     let status = document.getElementById("status");
+//     let scoreCount = document.getElementById("scoreCount");
+//     status.textContent = "Keep playing!";
+//     score = 0;
+//     scoreCount.textContent = score;
+
+//     if (status.textContent == "Keep playing") {
+//         switch (status) {
+//             case status.textContent == "Want to play? ":
+//                 score = 0;
+//                 break
+//             case status.textContent == "You Win!":
+//                 status.textContent = "Want to play?";
+//                 score = 0;
+//                 break;
+//             case status.textContent == "You Lose!":
+//                 status.textContent = "Want to play?";
+//                 score = 0;
+//                 break;
+//         }
+// });
 
 
 
