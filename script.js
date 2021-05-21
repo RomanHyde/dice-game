@@ -21,31 +21,31 @@ button.addEventListener('click', () => {
     let num = getRandomInt(1, 7)
 
     // Takes random number and outputs image
+    let img = document.getElementById("die");
     switch (num) {
         case 1:
             console.log("1");
-            // document.getElementById("die").innerHTML ="<img src="img/dice1.jpg" alt="Dice image" id="die"></img>";
-            // dieImg.innerHTML =  "<img src="img/dice1.jpg" alt="Dice image" id="die"></img>"
+            img.src = '/img/dice1.png';
             break;
         case 2:
             console.log("2");
-            // dieImg.innerHTML =  "<img src="img/dice2.jpg" alt="Dice image" id="die"></img>""
+            img.src = '/img/dice2.png';
             break;
         case 3:
             console.log("3");
-            // dieImg.innerHTML = "<img src="img/dice3.jpg" alt="Dice image" id="die"></img>"
+            img.src = '/img/dice3.png';
             break;
         case 4:
             console.log("4");
-            // dieImg.innerHTML =  "<img src="img/dice4.jpg" alt="Dice image" id="die"></img>"
+            img.src = '/img/dice4.png';
             break;
         case 5:
             console.log("5");
-            // dieImg.innerHTML =  "<img src="img/dice5.jpg" alt="Dice image" id="die"></img>"
+            img.src = '/img/dice5.png';
             break;
         case 6:
             console.log("6");
-            // dieImg.innerHTML = "<img src="img/dice6" alt="Dice image" id="die"></img>"
+            img.src = '/img/dice6.png';
             break;
     };
 });
