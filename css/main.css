@@ -1,0 +1,60 @@
+body {
+  background: #20123A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h2 {
+  font-family: arial;
+  font-size: 4rem;
+  color: #F8E71C;
+}
+
+#status {
+  font-family: arial;
+  font-size: 2rem;
+  color: #F8E71C;
+}
+
+.container {
+  text-align: center;
+}
+
+h3 {
+  font-family: arial;
+  font-size: 2rem;
+  color: #F8E71C;
+}
+
+#rules-box {
+  position: absolute;
+  left: 25%;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #693BCC;
+  color: #fff;
+  font-family: arial;
+  font-size: 1rem;
+  border-radius: 5%;
+  border-style: dashed;
+}
+
+#scoreCount {
+  font-family: arial;
+  font-size: 2rem;
+  color: #F8E71C;
+}
+
+img {
+  border-radius: 15%;
+  border-style: solid;
+}
+/*# sourceMappingURL=main.css.map */

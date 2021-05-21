@@ -5,27 +5,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./styles/main.css" />
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
     <title>Dice Game 1 Player</title>
 </head>
 
 <body>
     <div class="container">
-        <h2>Player 1</h2>
+        <h2>Keep Rollin' Rollin' Rollin' Rollin'...</h2>
+        <h3>Player 1</h3>
+        <h3 id="status"> Want to play? </h3>
 
 
         <div class="dice-container">
 
             <div id="rules-box">
-                <p></p>
+                <p>
+                    <b>
+                        How to Play
+                    </b>
+                    <br>
+                    The aim of the game is to get a score of 20 without rolling a 1.
+                    <br>
+                    If you roll at 1, you lose and your score will be reset to zero.
+                </p>
             </div>
             <div class="score-box">
                 <h3 class="scoreTitle">Score:</h3>
-                <p id="score">Text</p>
+                <p id="scoreCount">0</p>
             </div>
 
             <img src="img/dice-default.jpg" alt="Dice image" id="die"></img>
-            <p class="die">Result Here</p>
+            <br>
             <button id="button" type="button">Roll</button>
         </div>
         <script src="script.js"></script>
