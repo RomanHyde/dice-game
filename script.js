@@ -29,7 +29,7 @@ button.addEventListener('click', () => {
             console.log(`The final score is ${score}`);
             scoreCount.textContent = score;
             score = 0;
-            img.src = '/img/dice1.png';
+            img.src = './img/dice1.png';
             status.textContent = "You lose!";
             button.textContent = "Retry?";
             break;
@@ -38,7 +38,7 @@ button.addEventListener('click', () => {
             score += 2;
             console.log(`The score is ${score}`);
             scoreCount.textContent = score;
-            img.src = '/img/dice2.png';
+            img.src = './img/dice2.png';
             button.textContent = "Roll";
             break;
         case 3:
@@ -46,7 +46,7 @@ button.addEventListener('click', () => {
             score += 3;
             console.log(`The score is ${score}`);
             scoreCount.textContent = score;
-            img.src = '/img/dice3.png';
+            img.src = './img/dice3.png';
             button.textContent = "Roll";
             break;
         case 4:
@@ -54,7 +54,7 @@ button.addEventListener('click', () => {
             score += 4;
             console.log(`The score is ${score}`);
             scoreCount.textContent = score;
-            img.src = '/img/dice4.png';
+            img.src = './img/dice4.png';
             button.textContent = "Roll";
             break;
         case 5:
@@ -62,7 +62,7 @@ button.addEventListener('click', () => {
             score += 5;
             console.log(`The score is ${score}`);
             scoreCount.textContent = score;
-            img.src = '/img/dice5.png';
+            img.src = './img/dice5.png';
             button.textContent = "Roll";
             break;
         case 6:
@@ -70,7 +70,7 @@ button.addEventListener('click', () => {
             score += 6;
             console.log(`The score is ${score}`);
             scoreCount.textContent = score;
-            img.src = '/img/dice6.png';
+            img.src = './img/dice6.png';
             button.textContent = "Roll";
             break;
     };
