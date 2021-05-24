@@ -29,7 +29,7 @@ button.addEventListener('click', () => {
             console.log(`The final score is ${score}`);
             scoreCount.textContent = score;
             score = 0;
-            img.src = './img/dice1.png';
+            img.src = 'img/dice1.png';
             status.textContent = "You lose!";
             button.textContent = "Retry?";
             break;
