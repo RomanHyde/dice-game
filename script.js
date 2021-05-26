@@ -1,6 +1,6 @@
 // button element is declared here
 const button = document.getElementById("button");
-const restartButton = document.getElementsByClassName("restart");
+const restartButton = document.getElementById("restart");
 let score = 0
 
 // Click the butoon & get a random number each time
@@ -89,29 +89,23 @@ button.addEventListener('click', () => {
 });
 
 
+restartButton.addEventListener('click', () => {
+    let status = document.getElementById("status");
+    let scoreCount = document.getElementById("scoreCount");
+    score = 0;
+    scoreCount.textContent = score;
 
-// restartButton.addEventListener('click', () => {
-//     let status = document.getElementById("status");
-//     let scoreCount = document.getElementById("scoreCount");
-//     status.textContent = "Keep playing!";
-//     score = 0;
-//     scoreCount.textContent = score;
-
-//     if (status.textContent == "Keep playing") {
-//         switch (status) {
-//             case status.textContent == "Want to play? ":
-//                 score = 0;
-//                 break
-//             case status.textContent == "You Win!":
-//                 status.textContent = "Want to play?";
-//                 score = 0;
-//                 break;
-//             case status.textContent == "You Lose!":
-//                 status.textContent = "Want to play?";
-//                 score = 0;
-//                 break;
-//         }
-// });
-
-
-
+    switch (status) {
+        case status.textContent == "Want to play?":
+            break;
+        case status.textContent == "You Win!":
+            status.textContent = "Want to play?";
+            break;
+        case status.textContent == "You Lose!":
+            status.textContent = "Want to play?";
+            break;
+        case status.textContent == "Keep playing!":
+            status.textContent = "Want to play?";
+            break;
+    };
+});
